@@ -15,6 +15,7 @@
   "dependencies": {
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
+    "vue-jss": "^0.0.4",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
@@ -28,6 +29,7 @@
     "@vue/tsconfig": "^0.5.1",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
+    "monaco-editor": "^0.51.0",
     "npm-run-all2": "^6.2.0",
     "prettier": "^3.2.5",
     "typescript": "~5.4.0",
