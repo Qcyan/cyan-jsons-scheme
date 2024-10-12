@@ -1,11 +1,52 @@
+// {
+//   "files": [],
+//   "references": [
+//     {
+//       "path": "./tsconfig.node.json"
+//     },
+//     {
+//       "path": "./tsconfig.app.json"
+//     }
+//   ]
+// }
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "baseUrl": "./",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
     },
-    {
-      "path": "./tsconfig.app.json"
-    }
+    // 加载声明的文件包
+    "types": [
+      "vite/client",
+      // "element-plus/global"
+    ]
+  },
+  "include": [
+    "src",
+    "env.d.ts"
+    // "types/*.d.ts",
+    // "types/**/*.d.ts"
   ]
+  //  "extends": ["dist", "node_modules"],
 }

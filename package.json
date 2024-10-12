@@ -15,8 +15,17 @@
   "dependencies": {
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
-    "vue-jss": "^0.0.4",
-    "vue-router": "^4.3.3"
+    "vue-router": "^4.3.3",
+    "ajv": "^6.12.4",
+    "ajv-errors": "^1.0.1",
+    "ajv-i18n": "^3.5.0",
+    "core-js": "^3.6.5",
+    "json-schema-merge-allof": "^0.7.0",
+    "jsonpointer": "^4.1.0",
+    "jss": "^10.4.0",
+    "jss-preset-default": "^10.4.0",
+    "lodash.union": "^4.6.0",
+    "vue-jss": "^0.0.4"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",
